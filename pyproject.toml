@@ -7,13 +7,13 @@ license = "MIT"
 
 [tool.poetry.dependencies]
 python = ">=3.8,<=3.11"
-dask = {extras = ["delayed"], version = ">=2021.2.0,<=2022.8.0"}
+dask = {extras = ["delayed"], version = ">=2021.2.0,<=2022.9.0"}
 
 [tool.poetry.dev-dependencies]
-distributed = ">=2021.2.0,<=2022.8.0"
+distributed = ">=2021.2.0,<=2022.9.0"
 flake8 = "*"
 black = "*"
-dask = {extras = ["complete"], version = ">=2021.2.0,<=2022.8.0"}
+dask = {extras = ["complete"], version = ">=2021.2.0,<=2022.9.0"}
 graphviz = "*"
 ipython = "*"
 
